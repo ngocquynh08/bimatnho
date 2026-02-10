@@ -97,7 +97,7 @@ body {
     height: 200px;
     background: #fff;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     z-index: 5; /* Nằm sâu nhất khi đóng */
     transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1), z-index 0s 0.4s;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -137,7 +137,7 @@ body {
 <body>
 
 <div class="header">
-    &lt; Harumi Gift Box – Quà tặng &nbsp; 🔊
+    &lt; Harumi Gift Box – Quà tặng &nbsp; 
 </div>
 
 <div class="container" onclick="toggleEnvelope()">
@@ -153,24 +153,18 @@ body {
 </div>
 
 <script>
-const titleText = "Happy Birthday, Tuổi 19 rực rỡ! ✨";
-const messageLines = [
-    "Gửi bạn - người bạn mà mình luôn vô cùng trân trọng,",
-    "Thế là chúng mình đã cùng nhau bước sang năm 2026 rồi.",
-    "Tuổi 19, không còn cái bỡ ngỡ của năm đầu đại học,",
-    "nhưng lại đầy ắp những hoài bão và dự định mới.",
-    "Chúc bạn tuổi mới luôn giữ vững bản lĩnh và sự tự tin,",
-    "mong bạn đủ kiên cường để vượt qua mọi áp lực,",
-    "và đủ tỉnh táo để chọn cho mình lối đi đúng đắn nhất.",
-    "Dù cuộc sống ngoài kia có đôi lúc khiến bạn mệt mỏi,",
-    "đừng quên rằng vẫn luôn có mình ở phía sau ủng hộ.",
-    "Chúc bạn mỗi ngày thức dậy đều thấy yêu đời,",
-    "mỗi đêm nằm xuống đều cảm thấy tự hào về bản thân.",
-    "Hãy cứ cháy hết mình với đam mê của tuổi trẻ nhé,",
-    "vì bạn xứng đáng có được những điều tốt đẹp nhất.",
-    "Chúc mừng sinh nhật bạn! Thương bạn rất nhiều 💖"
-];
+const titleText = "Chúc mừng sinh nhật tuổi 19 ✨";
 
+const messageLines = [
+    "Chúc mừng sinh nhật tuổi 19 của bạn,",
+    "Một cột mốc thật đẹp trong hành trình trưởng thành.",
+    "Mong bạn luôn đủ mạnh mẽ để bước tiếp,",
+    "và đủ dịu dàng để yêu thương chính mình.",
+    "Tuổi trẻ có thể nhiều lo lắng và thử thách,",
+  
+    "Hãy cứ sống theo cách bạn tin là đúng,",
+    "vì bạn xứng đáng với những điều tốt đẹp nhất 💖"
+];
 let typingStarted = false;
 
 function typeContent() {
